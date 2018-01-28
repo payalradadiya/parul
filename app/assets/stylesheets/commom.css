@@ -1,0 +1,37 @@
+.backImage {
+  background-image: url(space.jpeg);
+}
+
+.card-image {
+  background-image: url(cards.png);
+}
+
+.i {
+  font-size: 50px !important;
+  color: #5E3BDD;
+}
+
+i:hover {
+    color: #ddaf3b;
+}
+
+h4 {
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+  color: #333333;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.3em;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-features {
+  padding: 100px 80px 20px 80px;
+  background-color: #ffffff;
+}
