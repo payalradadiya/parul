@@ -1,9 +1,9 @@
 .backImage {
-  background-image: image-url("space.jpeg");
+  background-image: url("space.jpeg");
 }
 
 .card-image {
-  background-image: image-url("cards.png");
+  background-image: url("cards.png");
 }
 
 .i {
