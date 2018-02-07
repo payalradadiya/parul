@@ -1,0 +1,18 @@
+<%= form_for @contact, remote: true do |f| %>
+  <%= f.label :name, 'Name:', class: 'contanct'%>
+  <%= f.text_field :name, class: 'contanct contanct-input' %>
+  <br/><br/>
+  <%= f.label :email, 'Email:', class: 'contanct' %>
+  <%= f.text_field :email, class: 'contanct contanct-input'%>
+
+  <br/><br/>
+  <%= f.label :website, 'Website:', class: 'contanct' %>
+  <%= f.text_field :website, class: 'contanct contanct-input'%>
+
+  <br/><br/>
+  <%= f.label :comment, 'Comment:', class: 'contanct' %>
+  <%= f.text_field :comment, class: 'contanct contanct-input'%>
+
+  <br/><br/>
+  <%= f.submit 'Submit >>', class: 'contact-button' %>
+<% end %>

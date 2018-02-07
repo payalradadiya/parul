@@ -35,3 +35,31 @@ p {
   padding: 100px 80px 20px 80px;
   background-color: #ffffff;
 }
+
+.contanct {
+  color: black;
+}
+
+.contanct-input {
+  width: 235px;
+  height: 35px;
+}
+
+.contact-button {
+  border: 2px solid;
+    border-color: #6636cc;
+    border-radius: 10px;
+    background: 0 0;
+    box-shadow: none;
+    color: #6636cc;
+    font-weight: 700;
+    font-size: 16px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: .8em 1.6em .8em;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
